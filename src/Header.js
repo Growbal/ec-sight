@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 
 import './Header.css';
+import Form from './components/Form';
 
 class Header extends Component{
 
@@ -13,10 +14,7 @@ class Header extends Component{
                 <div className = "Link">
                     <p>様々なリンク</p>
                 </div>
-                <div className = "Serch-box">
-                    <input type = "text" placeholder="商品を検索"/>
-                    <input type = "button" value = "🔍" />
-                </div>
+                <Form />
                 <div className = "Info">
                     <p>お知らせ</p>
                 </div>
