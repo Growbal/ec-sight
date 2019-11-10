@@ -1,0 +1,26 @@
+.Header{
+    height: 5vh;
+    background-color: aqua; 
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    width: 10vw;
+}
+
+.Link{
+    width: 50vw;
+}
+
+.Serch-box{
+    width: 35vw;
+}
+
+.Info{
+width: auto;
+}
+
+.Account{
+    width: auto;
+}
