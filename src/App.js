@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import  Header from './Header';
+import Top from './components/Top'
 
 function App() {
   return (
@@ -22,9 +22,7 @@ function App() {
         </a>
       </header> */}
       <Header />
-      <h1>
-      <p>Middele</p>
-      </h1>
+      <Top />
     </div>
   );
 }
