@@ -1,0 +1,20 @@
+.topPage{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.movie{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.main{
+    border: 1px solid red;
+}

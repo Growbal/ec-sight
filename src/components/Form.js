@@ -15,7 +15,7 @@ class Form extends Component {
         return (
         <form className="Serch-box" onSubmit = {this.handleSubmit}>
             <input type = "text" placeholder="商品を検索" value = {this.state.input} onChange = {this.handleChange}/>
-            <button>🔍</button>
+            <button>検索</button>
         </form>
         )
     }
