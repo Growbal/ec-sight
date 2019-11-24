@@ -1,5 +1,8 @@
 import React , { Component } from 'react';
+import { connect } from 'react-redux';
 import { Link  } from 'react-router-dom';
+
+import { getData } from '../actions';
 
 import  Header from './Header';
 import './Top.css';
@@ -16,7 +19,7 @@ class Top extends Component{
                         </div>
                         <div className = "right">
                             <div>
-                                
+                                <p>ばなー</p>    
                             </div>
                                 <div className = "linkList">
                                     <div className = "link">
@@ -57,4 +60,7 @@ class Top extends Component{
     }
 }
 
-export default Top;
+const mapStateToProps = state => ({ });
+const mapDispatchToProps = dispatch => ({ getData });
+
+export default connect(mapStateToProps, mapDispatchToProps)(Top)
