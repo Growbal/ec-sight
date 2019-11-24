@@ -11,6 +11,7 @@ import Login from './components/Login';
 import Top from './components/Top';
 
 import * as serviceWorker from './serviceWorker';
+import ProductList from './components/ProductList';
 
 const store = createStore(reducer);
 
@@ -19,6 +20,7 @@ ReactDOM.render(
         <BrowserRouter>
             <Switch>
                 <Route path="/top" component={ Top } />
+                <Route path="/productlist" component={ ProductList } />
                 <Route path="/" exact component={ Login } />
             </Switch>
         </BrowserRouter>

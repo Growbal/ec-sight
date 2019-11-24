@@ -1,0 +1,25 @@
+.logo {
+    height: 40vmin;
+}
+
+.productlist {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.demo {
+    background-color: darkgray;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}

@@ -23,7 +23,7 @@ class Top extends Component{
                             </div>
                                 <div className = "linkList">
                                     <div className = "link">
-                                        <Link to='/'>
+                                        <Link to='/productlist'>
                                             <p>商品一覧</p>
                                         </Link>
                                     </div>
