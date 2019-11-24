@@ -1,4 +1,5 @@
 import React , { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Header.css';
 import Form from './Form';
@@ -9,7 +10,9 @@ class Header extends Component{
         return (
             <div className = "Header">
                 <div className = "Logo">
-                    <p>ロゴ</p>
+                    <Link to='/top'>
+                        <p>ロゴ</p>
+                    </Link>
                 </div>
                 <div className = "Link">
                     <p>リンク</p>

@@ -2,6 +2,7 @@ import React , { Component } from 'react';
 import logo from '../logo.svg';
 
 import './ProductList.css';
+import Header from './Header';
 // import _ from 'lodash';
 
 class ProductList extends Component {
@@ -21,6 +22,7 @@ class ProductList extends Component {
     render(){
         return(
             <React.Fragment>
+                <Header />
                 <div className="productlist">
                     <div className="demo"></div>
                     <div className="products">
