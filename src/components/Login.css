@@ -1,0 +1,16 @@
+.menu {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.registration {
+    width: 10%;
+}
+
+.login {
+    width: 10%;
+}
