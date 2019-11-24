@@ -1,5 +1,0 @@
-.App {
-  display: grid;
-  grid-template-rows: 1fr minmax(95vh , 19fr);
-  text-align: center;
-}

@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import { BrowserRouter , Route , Switch } from 'react-router-dom';
 
 import './index.css';
-import App from './App';
+import Login from './components/Login';
+import Top from './components/Top';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-<App />,
- document.getElementById('root'));
+    <BrowserRouter>
+        <Switch>
+            <Route path="/top" component={ Top } />
+            <Route path="/" exact component={ Login } />
+        </Switch>
+    </BrowserRouter>,
+document.getElementById('root'));
 
 serviceWorker.unregister();

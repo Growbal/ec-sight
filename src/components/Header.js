@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 
 import './Header.css';
-import Form from './components/Form';
+import Form from './Form';
 
 class Header extends Component{
 
@@ -12,7 +12,7 @@ class Header extends Component{
                     <p>ロゴ</p>
                 </div>
                 <div className = "Link">
-                    <p>様々なリンク</p>
+                    <p>リンク</p>
                 </div>
                 <Form />
                 <div className = "Info">

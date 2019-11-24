@@ -1,41 +1,58 @@
 import React , { Component } from 'react';
+import { Link  } from 'react-router-dom';
 
+import  Header from './Header';
 import './Top.css';
 
 class Top extends Component{
 
     render(){
         return(
-            <div className = "topPage">
-                <div className = "movie">
-                    <p>動画を表示するっぽい</p>
-                </div>
-                <div className = "right">
-                    <div>
-                        <p>バナー？</p>
+            <React.Fragment>
+                <Header />
+                    <div className = "topPage">
+                        <div className = "movie">
+                            <p>動画</p>
+                        </div>
+                        <div className = "right">
+                            <div>
+                                
+                            </div>
+                                <div className = "linkList">
+                                    <div className = "link">
+                                        <Link to='/'>
+                                            <p>商品一覧</p>
+                                        </Link>
+                                    </div>
+                                    <div className = "link">
+                                        <Link to='/'>
+                                            <p>ランキング</p>
+                                        </Link>
+                                    </div>
+                                    <div className = "link">
+                                        <Link to='/'>
+                                            <p>概要</p>
+                                        </Link>
+                                    </div>
+                                    <div className = "link">
+                                        <Link to='/'>
+                                            <p>ジャンル</p>
+                                        </Link>
+                                    </div>
+                                    <div className = "link">
+                                        <Link to='/'>
+                                            <p>おすすめ</p>
+                                        </Link>
+                                    </div>
+                                    <div className = "link">
+                                        <Link to='/'>
+                                            <p>レビュー</p>
+                                        </Link>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
-                    <div className = "main">
-                        <div className = "productList">
-                            <button>商品一覧</button>
-                        </div>
-                        <div className = "ranking">
-                            <button>ランキング</button>
-                        </div>
-                        <div className = "overView">
-                            <button>概要</button>
-                        </div>
-                        <div className = "genre">
-                            <button>ジャンル</button>
-                        </div>
-                        <div className = "recommended">
-                            <button>おすすめ</button>
-                        </div>
-                        <div className = "review">
-                            <button>レビュー</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </React.Fragment>
         )
     }
 }
