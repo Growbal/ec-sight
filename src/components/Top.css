@@ -1,0 +1,35 @@
+.topPage{
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.movie{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    border: 1px solid red;
+
+}
+
+.link{
+    height: 35%;
+    width: 25%;
+    text-align: center;
+    border: 1px solid blue;
+}

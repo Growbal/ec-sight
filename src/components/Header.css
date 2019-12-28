@@ -1,0 +1,23 @@
+.Header{
+    height: 5vh;
+    background-color: aqua; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Logo{
+    width: 10vw;
+}
+
+.Link{
+    width: 50vw;
+}
+
+.Info{
+width: auto;
+}
+
+.Account{
+    width: auto;
+}
