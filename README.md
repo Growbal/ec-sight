@@ -1,4 +1,10 @@
 # Ec-site(GA)
-ec-site is a online net shopping that personal global active.
+
+ECサイト作成中
+
+## Programinng
+・Javascript
+・Java
+
 
 comming soon.
